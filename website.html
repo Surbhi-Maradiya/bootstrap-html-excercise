@@ -1,0 +1,574 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fa/css/all.css">
+    <style>
+        body {
+            padding-top: 61px !important;
+            line-height: 1.6;
+            color: #808080;
+            font-size: 15px;
+        }
+
+        #menu {
+            background-color: white;
+            margin: 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        #navbar li {
+            padding: 12px 0px;
+        }
+
+        #navbar a {
+            padding: 8px;
+            color: black;
+        }
+
+        #navbar a:hover {
+            background-color: #1592B4;
+            color: white;
+            transition: 1s;
+        }
+
+        .main-container {
+            background-color: 20232E;
+            min-height: 400px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .main-container .container {
+            padding-top: 40px;
+            color: white !important;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .infoblock {
+            background-color: #f2f6fc;
+        }
+
+        .infoblock .container-fluid {
+            padding: 20px 100px !important;
+        }
+
+        h4,
+        h2,
+        h5 {
+            color: #555555;
+        }
+
+        .lightskycolor {
+            color: #1592B4 !important;
+        }
+
+        .page-content {
+            background-color: #f9f9f9;
+        }
+
+        .page-content .container {
+            padding-top: 10px;
+            padding-bottom: 50px;
+        }
+
+        .full-width {
+            width: 80%;
+        }
+
+        #signform {
+            box-shadow: 0px 0px 3px grey;
+            padding: 12px;
+            border-radius: 4px;
+        }
+
+        .profile-section .container {
+            padding-bottom: 30px;
+        }
+
+        .footer1 {
+            background-color: #20232E;
+        }
+
+        .footer1 .container {
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+
+        .footer1 li {
+            font-size: 12px;
+            font-weight: 100;
+        }
+
+        .footer2 {
+            background-color: #1B1D26;
+        }
+
+        .footer-right li {
+            display: inline-block;
+            padding-left: 10px;
+        }
+
+        #footer a:hover {
+            color: #1592B4;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .footer2 .container {
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        #footer,
+        #footer a {
+            color: #a9a9a9;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- top nav start -->
+    <nav id="menu" class="navbar navbar-fixed-top">
+        <div class="container">
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right color">
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#">Hire Resources</a></li>
+                    <li><a href="#">Resume Building</a></li>
+                    <li><a href="#"><i class="fa fa-user-plus"></i> Sign Up</a></li>
+                    <li><a href="#"><i class="fa fa-lock"></i> Log In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- top nav end -->
+    <!-- main-container start -->
+    <div class="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h3 class="text-center bold">Jobseekers</h3>
+                    <p class="form-group text-center">The search for your dream job starts here!</p>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <em class="bold">job title,keywords, or company</em>
+                                <input type="text" class="form-control input-lg" placeholder="job title, keywords">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <em class="bold">city, location name</em>
+                                <input type="text" class="form-control input-lg" placeholder="city, location name">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group" style="padding-top: 30px;">
+                                <button class="btn btn-primary btn-lg text-center" style="font-size: 15px;"><i
+                                        class="fa fa-search"></i> Find jobs</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-3 bold">
+                            <p>Create your Profile</p>
+                        </div>
+                        <div class="col-md-3 bold">
+                            <p>Find nearest Jobs</p>
+                        </div>
+                        <div class="col-md-3 bold">
+                            <p>Status Update</p>
+                        </div>
+                        <div class="col-md-3 bold">
+                            <p>Get Hired</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 text-center">
+                    <h3 class="text-center bold">Employers</h3>
+                    <p class="form-group text-center">The most efficient way to find your next hire is here</p>
+                    <br>
+                    <button class="btn btn-danger btn-lg text-center" style="font-size: 14px;"><i
+                            class="fa fa-search"></i> GET STARTED</button>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4 bold">
+                            <p>Customised Recruitment Solution</p>
+                        </div>
+                        <div class="col-md-4 bold">
+                            <p>Dedicated Recruitment Manage</p>
+                        </div>
+                        <div class="col-md-4 bold">
+                            <p>Guaranteed Hir</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main-container end -->
+    <!-- info  block start -->
+    <div class="infoblock">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fa fa-certificate fa-3x"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h4 class="bold"><span class="lightskycolor">Best Jobs</span> Consultancy in india</h4>
+                            <p>Hire best resources from jobswalkin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fa fa-suitcase fa-3x"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h4 class="bold"><span class="lightskycolor">Unlimited</span> Interview Calls</h4>
+                            <p>Attend Interview till you not get placed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fa fa-headphones fa-3x"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h4 class="bold"><span class="lightskycolor">Contact Us :</span> +91- 8792462607</h4>
+                            <p>Above HDFC Bank, Marathahalli Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- info block start -->
+    <!-- page content 1 start -->
+    <div class="page-content">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-sm-12 col-md-6 form-group">
+                    <h2 class="bold"><span class="lightskycolor">Our</span> Solutions</h2>
+                    <p class="text-justify" style="word-spacing: 2;">
+                        Finding the appropriate talent at the right time has been a challenge for organisations ,
+                        especially if you don’t have the right recruitment agency helping you in your talent acquisition
+                        and sourcing.
+                        Choose the pricing that suits your requirements. Get an exclusive HR solution and dedicated
+                        manager for every campaign you launch.
+                        As a recruitment agency, we firmly believe that collaboration is the key to winning the top
+                        talent in any niche.
+                        With a customized, end to end recruitment solutions designed to adapt as per your requirements,
+                        we have one motive - to help you source , filter, interview & recruit the most suitable
+                        candidate.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 form-group">
+                    <h2 class="bold"><span class="lightskycolor">Why choose</span> jobswalkin ?</h2>
+                    <img class="full-width" src="services-step.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- paage content 1 end -->
+    <!-- page content 2 start -->
+    <div class="page-content">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-sm-4 col-md-4 form-group">
+                    <i class="fa fa-suitcase fa-4x fa-pull-left fa-border"></i>
+                    <h5 class="bold"><span class="lightskycolor">Recruitment</span> Solution</h5>
+                    <p class="text-justify">
+                        Committed and consistent service with first-time ever pre-paid and post-paid fixed pricing
+                        package,
+                        job posting on free and premium job boards, pre-screened candidate profiles, and premium support
+                        with managed employer assistance.
+                    </p>
+                    <div>
+                        <button class="btn btn-success btn-md btn-block">Enquiry Now</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 form-group">
+                    <i class="fa fa-users fa-4x fa-pull-left fa-border"></i>
+                    <h5 class="bold"><span class="lightskycolor">HR</span> Consulting</h5>
+                    <p class="text-justify">
+                        Delivering all-around HR expertise to Indian and international clients with timely execution and
+                        performance results in all HR disciplines chiefly market analysis, designing policies, work
+                        force planning and compliance.
+                    </p>
+                    <div>
+                        <button class="btn btn-info btn-md btn-block">Enquiry Now</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 form-group">
+                    <i class="fa fa-file fa-4x fa-pull-left fa-border"></i>
+                    <h5 class="bold"><span class="lightskycolor">Resume/CV</span> Writing</h5>
+                    <p class="text-justify">
+                        Get noticed by recruiters and stand-out from the crowd. Increase views to your profile with our
+                        expert guidance.
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+                        <button class="btn btn-danger btn-md btn-block">Enquiry Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- paage content 2 end -->
+    <!-- profile section start -->
+    <div class="profile-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4 class="bold"><span class="lightskycolor">Register Your</span> Profile</h4>
+                    <br>
+                    <br>
+                    <div id="signform">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Mobile</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control">
+                            <em>password min 5 character</em>
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm Password</label>
+                            <input type="password" class="form-control">
+                            <em>Confirm password min 5 character</em>
+                        </div>
+                        <div class="form-group text-center">
+                            <button class="btn btn-warning">Register</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h4 class="bold"><span class="lightskycolor">Available</span> Jobs</h4>
+                            <br>
+                            <br>
+                            <ul style="list-style: none">
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                                <li class="col-md-4"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- profile section end -->
+    <!-- info  block start -->
+    <div class="infoblock">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fa fa-certificate fa-3x"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h4 class="bold"><span class="lightskycolor">Best Jobs</span> Consultancy in india</h4>
+                            <p>Hire best resources from jobswalkin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fa fa-suitcase fa-3x"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h4 class="bold"><span class="lightskycolor">Unlimited</span> Interview Calls</h4>
+                            <p>Attend Interview till you not get placed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fa fa-headphones fa-3x"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h4 class="bold"><span class="lightskycolor">Contact Us :</span> +91- 8792462607</h4>
+                            <p>Above HDFC Bank, Marathahalli Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- info block start -->
+    <!-- footer start -->
+    <footer id="footer">
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <ul style="list-style: none">
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                            <li class="col-md-3"> <a>Web develop <b>(100)</b> jobs</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            Copyright ©2019 <span class="lightskycolor">jobswalkin</span>. All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <ul class="footer-right">
+                            <li><a>Sitemap</a></li>
+                            <li>|</li>
+                            <li><a>Help Desk</a></li>
+                            <li>|</li>
+                            <li><a>Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./fa/css/all.css">
+    <link rel="stylesheet" href="external.css">
+    <style>
+        th {
+            color: darkred;
+        }
+
+        .search-box {
+            margin-top: 15px;
+            width: 25%;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header1 container-fluid">
+            <span>Technical Help - +91-8792462607</span>
+            <a href="#">Welcome, SBIC Admin - Logout</a>
+        </div>
+        <nav class="header2 navbar navbar-inverse bg-grey">
+            <div class="navbar-header">
+                <a class="navbar-brand link" href="#"><b>Admin SBIC-UP</b></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="nav-link link" href="#"><i class="fa fa-home"></i> Dashboard</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link link dropdown-toggle" href="#"><i class="fa fa-plus"></i>
+                            Admission <span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link link dropdown-toggle" href="#"><i class="fa fa-suitcase"></i> Fee
+                            Payment <span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link link dropdown-toggle" href="#"><i class="fa fa-bus"></i> Trasport <span
+                                class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link link" href="#"><i class="fa fa-edit"></i> Exam</a>
+                    </li>
+                    <li>
+                        <a class="nav-link link" href="#"><i class="fa fa-star"></i> Activity</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link link dropdown-toggle" href="#"><i class="fa fa-cogs"></i> Admin <span
+                                class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link link dropdown-toggle" href="#"><i class="fa fa-user"></i> Account <span
+                                class="caret"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-9">
+                <h3 class="text-center text-info">Manage Trasport : 1</h3>
+            </div>
+            <div class="col-md-3 search-box">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">New Trasport</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label>Trasport Number</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Root Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Size</label>
+                            <select class="form-control">
+                                <option>Choose</option>
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Drive Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Driver Mobile No</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-block">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <table class="table table-bordered">
+                    <tr class="active">
+                        <th>T-Id</th>
+                        <th>T-number</th>
+                        <th>Type</th>
+                        <th>Trasport root</th>
+                        <th>Driver</th>
+                        <th>Mobile No</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>VEHICLE-1</td>
+                        <td>Small</td>
+                        <td>BUJURGA</td>
+                        <td>Akash Yadav</td>
+                        <td>1234567890</td>
+                        <td class="text-center">
+                            <button class="btn btn-sm" style="background: orange; color: white;"><i
+                                    class="fa fa-plus"></i> Root Master</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fa/css/all.css">
+    <style>
+        .content {
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 5px 10px 20px gray;
+            min-height: 220px;
+        }
+
+        .content:hover {
+            box-shadow: 5px 10px 20px green;
+        }
+
+        .heading h2::before {
+            position: absolute;
+            content: '';
+            left: 15px;
+            bottom: 0px;
+            width: 300px;
+            border-bottom: 3px solid #e4e4e4;
+        }
+
+        .heading h2::after {
+            position: absolute;
+            content: '';
+            left: 15px;
+            bottom: 0px;
+            width: 70px;
+            border-bottom: 6px solid #cf1a07;
+        }
+
+        .button1 {
+            background-color: #cf1a07;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 30px;
+        }
+
+        .button1:hover {
+            background-color: white;
+            color: #cf1a07;
+            border: 2px solid #cf1a07;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- block start -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="heading">
+                        <h2>
+                            Who should do this Course
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row text-center">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="content">
+                        <i class="fa fa-users fa-3x" style="color: lightskyblue;"></i>
+                        <h4>I Am Job Seeker</h4>
+                        <button class="btn button1">ENQUIRE</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="content">
+                        <i class="fa fa-address-card fa-3x" style="color: green;"></i>
+                        <h4>I Am Working Professional</h4>
+                        <button class="btn button1">ENQUIRE</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="content">
+                        <i class="fa fa-handshake  fa-3x" style="color: orange;"></i>
+                        <h4>I Want Change My Domain</h4>
+                        <button class="btn button1">ENQUIRE</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="content">
+                        <i class="fa fa-user-tie  fa-3x" style="color: blue;"></i>
+                        <h4>I Want Refresh My Skills </h4>
+                        <button class="btn button1">ENQUIRE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- block end -->
+</body>
+
+</html>
